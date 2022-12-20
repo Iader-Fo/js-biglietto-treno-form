@@ -16,7 +16,7 @@
 <body class="my-bg-color">
     <main>
         <h1 class="text-center text-white py-3">CALCOLA IL PREZZO DEL TUO BIGLIETTO</h1>
-        <div class="container text-center bg-white pt-4 pb-1 calcola">
+        <div class="container text-center bg-white pt-4 pb-1 rounded calcola">
             <div class="row justify-content-center">
                 <div class="col-3">
                     <label class="my-color fw-bold" for="name-input">
@@ -63,35 +63,35 @@
         </div>
 
 
-        <div>
+        <div id="personal-ticket" style="display: none;">
             <h1 class="text-center text-white py-3"> IL TUO BIGLIETTO</h1>
             <div class="container bg-white py-3">
                 <h3>DETTAGLIO PASSEGERI</h3>
                 <div class="container">
-                    <div class="row justify-content-between">
-                        <div class="col-auto">
-                            <h3>NOME PASSEGGERO</h3>
-                            <div id="nome-passeggero">
+                    <div class="row justify-content-between border-bottom border-top border-secondary">
+                        <div class="col-auto bg-secondary">
+                            <h3 class="fw-bold m-0">NOME PASSEGGERO</h3>
+                            <div id="nome-passeggero" class="fw-bold fs-3">
                             </div>
                         </div>
                         <div class="col-2">
-                            <h5>Offerta</h5>
-                            <div id="eta-passeggero">
+                            <h4 class="m-0 fw-bold">Offerta</h4>
+                            <div id="eta-passeggero" class="mt-5 pb-3">
                             </div>
                         </div>
                         <div class="col-2">
-                            <h5>Carrozza</h5>
-                            <div id="num-carrozza">
+                            <h4 class="m-0 fw-bold">Carrozza</h4>
+                            <div id="num-carrozza" class="mt-5">
                             </div>
                         </div>
                         <div class="col-2">
-                            <h5>Codice CP</h5>
-                            <div id="cod-cp">
+                            <h4 class="m-0 fw-bold">Codice CP</h4>
+                            <div id="cod-cp" class="mt-5">
                             </div>
                         </div>
                         <div class="col-2">
-                            <h5>Costo biglietto</h5>
-                            <div id="costo-biglietto">
+                            <h4 class="m-0 fw-bold">Costo biglietto</h4>
+                            <div id="costo-biglietto" class="mt-5">
                             </div>
                         </div>
                     </div>

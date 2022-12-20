@@ -22,7 +22,7 @@ const submitAnnulla = document.getElementById("annulla");
 submitGenera.addEventListener('click',
     function () {
         // CALCOLA PREZZO X KM
-        console.log ("i km sono:", numKm);        
+        console.log("i km sono:", numKm);
         const kmVal = parseInt(numKm.value);
         let prezzo = kmVal * 0.21;
         let bigliettoStandard = "Biglietto Standard"
@@ -80,3 +80,11 @@ submitAnnulla.addEventListener('click',
         window.location.reload();
     }
 )
+
+document.getElementById('genera').addEventListener('click', function () {
+    var personalTicket = document.getElementById('personal-ticket');
+    console.log(personalTicket.style);
+    if (personalTicket.style.display === 'none') {
+        personalTicket.style.display = 'block';
+    }
+})

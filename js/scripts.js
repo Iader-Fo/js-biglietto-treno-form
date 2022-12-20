@@ -1,6 +1,5 @@
 // NOME E COGNOME
 const nameInput = document.getElementById("name-input");
-console.log("Il nome e cognome è:", nameInput)
 
 // CHIEDI N. DI KM
 const numKm = document.getElementById("numkm");

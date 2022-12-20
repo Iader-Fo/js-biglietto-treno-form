@@ -1,5 +1,17 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+} */
+
+.my-bg-color{
+    background-color: rgb(200, 64, 87);
+}
+
+.my-color{
+    color: rgb(200, 64, 87);
+}
+
+.calcola input, .calcola select{
+    border-color: rgb(200, 64, 87);;
 }

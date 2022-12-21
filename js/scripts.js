@@ -74,10 +74,11 @@ submitGenera.addEventListener('click',
 
 submitAnnulla.addEventListener('click',
     function () {
-        // nameInput.value = "";
-        // numKm.value = "";
-        // eta.value = "over18";
-        window.location.reload();
+        nameInput.value = "";
+        numKm.value = "";
+        eta.value = "over18";
+        document.getElementById('personal-ticket').style.display = 'none';
+        // window.location.reload();
     }
 )
 
